@@ -5,11 +5,11 @@ var currentTime = moment().format("hh:mm")
 console.log(currentTime)
 var timeCheck = moment()
 
-function initialize(){
-    for(var i = 0;i<10;i++){
+// function initialize(){
+//     for(var i = 0;i<10;i++){
         
-    }
-}
+//     }
+// }
 
 
 function loadData(){
@@ -23,82 +23,92 @@ function loadData(){
 loadData();
 
 //***I know this is definitely not the best way to do this & I'm going to condense it all down into way fewer lines of code. I've spent hours trying to figure it out using 'this' to no avail, so I'm just doing it this way for now so it at least functions.***
+var testArr = []
+$(".planner-buttons").on('click', function(){
+    var test = $(this).prev()
+    // console.log(test.val())
+    
+    testArr.push(test)
+    console.log(testArr)
 
-$("#planner-button-1").on('click', function(){
-    var userInput1 = $("#planner-input-1").val()
-    var Input1string = JSON.stringify(userInput1)
-    localStorage.setItem("input1", Input1string)
-    console.log(Input1string)
-})
-//--------------------------------------
-$("#planner-button-2").on('click', function(){
-    var userInput2 = $("#planner-input-2").val()
-    var Input2string = JSON.stringify(userInput2)
-    localStorage.setItem("input2", Input2string)
-    console.log(Input2string)
-})
-//--------------------------------------
-$("#planner-button-3").on('click', function(){
-    var userInput3 = $("#planner-input-3").val()
-    var Input3string = JSON.stringify(userInput3)
-    localStorage.setItem("input3", Input3string)
-    console.log(Input3string)
-})
-//--------------------------------------
-$("#planner-button-4").on('click', function(){
-    var userInput4 = $("#planner-input-4").val()
-    var Input4string = JSON.stringify(userInput4)
-    localStorage.setItem("input4", Input4string)
-    console.log(Input4string)
-})
-//--------------------------------------
-$("#planner-button-5").on('click', function(){
-    var userInput5 = $("#planner-input-5").val()
-    var Input5string = JSON.stringify(userInput5)
-    localStorage.setItem("input5", Input5string)
-    console.log(Input5string)
-})
-//--------------------------------------
-$("#planner-button-6").on('click', function(){
-    var userInput6 = $("#planner-input-6").val()
-    var Input6string = JSON.stringify(userInput6)
-    localStorage.setItem("input6", Input6string)
-    console.log(Input6string)
-})
-//--------------------------------------
-$("#planner-button-7").on('click', function(){
-    var userInput7 = $("#planner-input-7").val()
-    var Input7string = JSON.stringify(userInput7)
-    localStorage.setItem("input7", Input7string)
-    console.log(Input7string)
-})
-//--------------------------------------
-$("#planner-button-8").on('click', function(){
-    var userInput8 = $("#planner-input-8").val()
-    var Input8string = JSON.stringify(userInput8)
-    localStorage.setItem("input8", Input8string)
-    console.log(Input8string)
-})
-//--------------------------------------
-$("#planner-button-9").on('click', function(){
-    var userInput9 = $("#planner-input-9").val()
-    var Input9string = JSON.stringify(userInput9)
-    localStorage.setItem("input9", Input9string)
-    console.log(Input9string)
-})
-//--------------------------------------
-$("#planner-button-10").on('click', function(){
-    var userInput10 = $("#planner-input-10").val()
-    var Input10string = JSON.stringify(userInput10)
-    localStorage.setItem("input10", Input10string)
-    console.log(Input10string)
-})
+
+    // var userInput1 = $("#planner-input-1").val()
+    // var Input1string = JSON.stringify(userInput1)
+    // localStorage.setItem("input1", Input1string)
+    // console.log(Input1string)
+    }
+)
+// //--------------------------------------
+// $("#planner-button-2").on('click', function(){
+//     var userInput2 = $("#planner-input-2").val()
+//     var Input2string = JSON.stringify(userInput2)
+//     localStorage.setItem("input2", Input2string)
+//     console.log(Input2string)
+// })
+// //--------------------------------------
+// $("#planner-button-3").on('click', function(){
+//     var userInput3 = $("#planner-input-3").val()
+//     var Input3string = JSON.stringify(userInput3)
+//     localStorage.setItem("input3", Input3string)
+//     console.log(Input3string)
+// })
+// //--------------------------------------
+// $("#planner-button-4").on('click', function(){
+//     var userInput4 = $("#planner-input-4").val()
+//     var Input4string = JSON.stringify(userInput4)
+//     localStorage.setItem("input4", Input4string)
+//     console.log(Input4string)
+// })
+// //--------------------------------------
+// $("#planner-button-5").on('click', function(){
+//     var userInput5 = $("#planner-input-5").val()
+//     var Input5string = JSON.stringify(userInput5)
+//     localStorage.setItem("input5", Input5string)
+//     console.log(Input5string)
+// })
+// //--------------------------------------
+// $("#planner-button-6").on('click', function(){
+//     var userInput6 = $("#planner-input-6").val()
+//     var Input6string = JSON.stringify(userInput6)
+//     localStorage.setItem("input6", Input6string)
+//     console.log(Input6string)
+// })
+// //--------------------------------------
+// $("#planner-button-7").on('click', function(){
+//     var userInput7 = $("#planner-input-7").val()
+//     var Input7string = JSON.stringify(userInput7)
+//     localStorage.setItem("input7", Input7string)
+//     console.log(Input7string)
+// })
+// //--------------------------------------
+// $("#planner-button-8").on('click', function(){
+//     var userInput8 = $("#planner-input-8").val()
+//     var Input8string = JSON.stringify(userInput8)
+//     localStorage.setItem("input8", Input8string)
+//     console.log(Input8string)
+// })
+// //--------------------------------------
+// $("#planner-button-9").on('click', function(){
+//     var userInput9 = $("#planner-input-9").val()
+//     var Input9string = JSON.stringify(userInput9)
+//     localStorage.setItem("input9", Input9string)
+//     console.log(Input9string)
+// })
+// //--------------------------------------
+// $("#planner-button-10").on('click', function(){
+//     var userInput10 = $("#planner-input-10").val()
+//     var Input10string = JSON.stringify(userInput10)
+//     localStorage.setItem("input10", Input10string)
+//     console.log(Input10string)
+// })
 
 
 function loadData(){
-    for (let i = 1; i < 11; i++) {
-        var parsedData = JSON.parse(localStorage.getItem("input" + i));
-        $("#planner-input-" + i).val(parsedData);
+    for(var i = 1; i < 11; i++){
+       var getData = localStorage.getItem("input" + i)
+       var parsedData = JSON.parse(getData);
+    //    console.log("parsedData " + i + ": " + parsedData)
+       $("#planner-input-" + i).val(parsedData);
     }
 }
 
