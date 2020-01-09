@@ -1,0 +1,110 @@
+html {
+    background-image: url("https://wallpaperaccess.com/full/632789.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: none;
+    background-color: rgb(32,32,32);
+    
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(255, 0, 0, 0);
+    letter-spacing: 2px;
+    
+}
+
+.row:hover{
+    background-color: rgba(255, 255, 255, 0.178);   
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.144);
+    transition: .8s;
+}
+
+h1 {
+    font-size: 66px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-shadow: 0px 0px 10px rgb(109, 109, 109);
+    letter-spacing: 8px;
+    margin: 0;
+}
+
+#top-text {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 10px;
+}
+
+#main-div {
+    min-height: 700px;
+    border-radius: 25px;
+    margin: 3% auto;
+    background-color: rgba(255, 255, 255, 0.596);
+    box-shadow: 0px 0px 10px 3px rgba(250, 200, 178, 0.438);
+}
+
+#planner-layout-container {
+    background-color: rgba(165, 165, 165, 0.342);
+    border-radius: 25px;
+    height: 500px;
+    width: 100%;
+    padding: 0px 5%;
+    
+}
+
+.planner-rows {
+    background-color: rgba(177, 177, 177, 0.336);
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.342);
+    text-align: center;
+    height: 40px;
+    margin: 5px 0px;
+    color: rgb(58, 58, 58);
+    padding-top: 6px;
+    outline: none;  
+}
+
+.planner-buttons-saved {
+    background-color: rgba(22, 83, 22, 0.685);
+    
+    
+}
+
+.planner-buttons-saved:hover {
+    background-color: red;
+
+}
+
+.planner-buttons:hover {
+    background-color: rgba(22, 83, 22, 0.685);
+    cursor: pointer;
+    color: white;
+    letter-spacing: 3px;
+    transition: .5s;
+    
+    
+}
+
+footer{
+    height: 40px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.411);
+    border-top: 1.3px solid white;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 12px;
+    font-size: 12px;
+    color: black;
+   
+    
+}
+
+textarea {
+    resize: none;
+}
