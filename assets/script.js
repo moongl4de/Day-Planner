@@ -1,6 +1,6 @@
 $("#top-text").text(moment().format("dddd, MMMM Do YYYY -  h:mm a"))
 
-var currentTime = moment().format("kk")
+
 
 
 var dayPlanner = {
