@@ -1,0 +1,35 @@
+How to handle local storage for each input
+
+Scenario: walk the dog at 1pm becomes eat lunch at 1pm
+
+1. have a global object that represents our Day planner timeslots
+2. read that global object from localStorage when the page loads, use it to update
+   our inputs
+3. Any time one of our inputs changes...
+    a. First, update the global object in our JS based on whatever input changed
+    b. Then, make sure we update the localStorage version of that object 
+
+What will the object actually look like?
+
+var dayPlanner = {
+    input1: "day planner description",
+    input2: "another day planner description",
+    input3: "walk dog"
+}   
+
+assuming that our inputs have the same id as our object property names:
+<input id="input1"/>
+
+we can create a click event such that when I click a "save" button, we can use the id of the 
+corresponding input to index into the object:
+$(".save").click(function(){
+    //get the id from the correct input: (Hint: jQuery methods like "parent()" or "sibling())
+    var inputElement = $(this).prev();
+    //figure out the appropriate ID
+    var inputId = inputElement.attr("id"); //"input1"
+
+  1  //THIS IS THE MAGIC PART:
+    dayPlanner[inputId] = inputElement.val();
+
+    //then update local storage
+})

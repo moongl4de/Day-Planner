@@ -108,3 +108,15 @@ footer{
 textarea {
     resize: none;
 }
+
+.past {
+    background-color: black;
+
+}
+.present {
+    background-color: red;
+}
+
+.future {
+    background-color: green;
+}
