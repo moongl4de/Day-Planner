@@ -2,7 +2,7 @@
 $( document ).ready(function() {
 //displays the date and time at the top of the application
 setInterval(function(){ 
-    $("#top-text").text(moment().format("dddd, MMMM Do YYYY -  h:mm:ss a")); 
+    $("#top-text").text(moment().format("dddd, MMMM Do YYYY  h:mm:ss a")); 
 }, 1);
 
 //Object for all of my inputs. I was using an array at first but ran into an issue where if you updated existing text, it would push that new data into the array instead of replacing the existing data.
