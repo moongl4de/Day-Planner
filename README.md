@@ -6,7 +6,7 @@ This is a day planner created using JavaScript. This was a huge learning experie
 
 ## Installation
 
-Clone to your local machine and open in your favorite code editor to check it out! Or visit the deployed version at: [Day Planner on GitHub Pages](https://alexgignilliat.github.io/Code-Quiz/)
+Clone to your local machine and open in your favorite code editor to check it out! Or visit the deployed version at: [Day Planner on GitHub Pages](https://alexgignilliat.github.io/Day-Planner/)
 
 ## Technologies Utilized
 
