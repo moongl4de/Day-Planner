@@ -11,7 +11,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     background-color: rgba(255, 0, 0, 0);
     letter-spacing: 2px;
-    
 }
 
 .row:hover{
@@ -69,8 +68,6 @@ h1 {
     outline: none;  
 }
 
-
-
 .planner-buttons:hover {
     background-color: rgba(255, 255, 255, 0.438);
     cursor: pointer;
@@ -93,7 +90,6 @@ footer{
     font-size: 12px;
     color: black;  
 }
-
 
 .past {
     background-color: rgba(0, 0, 0, 0.308);
