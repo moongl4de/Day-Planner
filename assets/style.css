@@ -72,6 +72,7 @@ h1 {
     cursor: pointer;
     color: white;
     letter-spacing: 3px;
+
     text-shadow: 1px 1px 5px black;
 }
 
@@ -139,5 +140,9 @@ footer{
         margin-top: -30px;
         height: 70%;
         padding: 0px 30px;
+    }
+
+    #top-text {
+        letter-spacing: 1px;
     }
 }
