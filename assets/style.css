@@ -45,7 +45,6 @@ h1 {
     background-color: rgba(255, 255, 255, 0.596);
     box-shadow: 0 1px 6px rgb(0, 0, 0), 0 1px 4px rgb(255, 255, 255);
     background-image: url("https://blazepress.com/.image/t_share/MTI4OTg4OTU2MTYyMzEyMjAy/38.gif");
-    min-width: 560px;
     
     
 }
@@ -56,7 +55,7 @@ h1 {
     height: 500px;
     width: 100%;
     padding: 0px 5%;
-    min-width: 520px;
+    
     
     
 }
