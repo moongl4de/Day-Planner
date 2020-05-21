@@ -67,6 +67,7 @@ h1 {
     background-size: 70%;
     opacity: .3;
 }
+
 .planner-buttons:hover {
     background-color: rgba(255, 255, 255, 0.438);
     cursor: pointer;
@@ -96,15 +97,17 @@ footer{
     background-color: rgba(0, 0, 0, 0.226);
     color: white;
 }
+
 .past:hover{
     box-shadow: 0px 0px 10px black;
-
 }
+
 .present {
     background-color: rgba(75, 0, 0, 0.185);
     color: white;
     border: 1px solid rgba(255, 0, 0, 0.062);
 }
+
 .present:hover{
     box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.411);
 }
