@@ -4,6 +4,8 @@
 
 This is a day planner created using JavaScript. This was a huge learning experience, and while there are still a few things I'm working out, it's generally how I envisioned it. I went into this knowing very little about APIs, localStorage, setting intervals, etc, and although I most definitely have a lot more to learn, I believe I now have a solid foundation to build upon.
 
+![image](./PlannerSS.png)
+
 ## Installation
 
 Clone to your local machine and open in your favorite code editor to check it out! Or visit the deployed version at: [Day Planner on GitHub Pages](https://alexgignilliat.github.io/Day-Planner/)
